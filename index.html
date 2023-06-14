@@ -9,6 +9,53 @@
     <title>Sign-up Form</title>
   </head>
   <body>
-    WHAAAAAT
+    <div class="leftContainer">
+      <p>ODIN</p>
+    </div>
+    <div class="rightContainer">
+      <div class="mainText">
+        <p>
+          This is not a real online service! You know you need something like
+          this in yor life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <br />
+        You know you want to.
+      </div>
+      <p>Let's do this!</p>
+      <div class="formContainer">
+        <form action="test/web.com" method="post">
+          <div class="name">
+            <label for="first_name">FIRST NAME</label><br />
+            <input type="text" id="first_name" name="user_name" />
+          </div>
+          <div class="last">
+            <label for="last_name">LAST NAME</label><br />
+            <input type="text" name="user_lastName" id="last_name" />
+          </div>
+          <div class="mail">
+            <label for="mail">EMAIL</label><br />
+            <input type="email" name="user_mail" id="mail" />
+          </div>
+          <div class="phone">
+            <label for="phoneNum">PHONE NUMBER</label><br />
+            <input type="number" name="user_phone" id="phoneNum" />
+          </div>
+          <div class="pass">
+            <label for="password">PASSWORD</label><br />
+            <input type="password" name="user_password" id="password" />
+          </div>
+          <div class="confirmPass">
+            <label for="confPassword">CONFIRM PASSWORD</label><br />
+            <input type="password" name="user_confirmPass" id="confPassword" />
+          </div>
+        </form>
+      </div>
+      <div class="buttonContainer">
+        <button>Create Account</button>
+
+        <p>Already have an account? Log in</p>
+      </div>
+    </div>
   </body>
 </html>
