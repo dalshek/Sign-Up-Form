@@ -1,11 +1,16 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: stretch;
+    height: 100%;
 }
 
 .leftContainer {
     background: grey;
     padding: 150px;
+    background-image: url(images/neom-QZGW6t70IsI-unsplash.jpg);
+    background-size: cover;
+    min-height: 100%;
 }
 
 .rightContainer {
@@ -13,22 +18,32 @@ body {
     flex-direction: column;
     justify-content: center;
     background: pink;
+    min-height: 100%;
 }
 
 .mainText {
     width: 500px;
-    background: blue;
+    background: rgb(219, 202, 202);
     padding: 100px 40px 20px 30px;
 }
 .formContainer {
-    background: yellow;
-    padding: 0px 0px 30px 30px;
-    display: flex;
+    background: rgb(230, 230, 225);
+    padding: 10px 0px 30px 30px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
+.flexing {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flexLeft {
+    padding-right: 50px;
+}
 
 .buttonContainer {
-    background: orange;
+    background: rgb(219, 202, 202);
     padding: 30px 0px 30px 30px;
 }
